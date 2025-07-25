@@ -1,0 +1,9 @@
+@keyframes floatUp {
+  0%   { transform: translateY(0); opacity: 1; }
+  50%  { transform: translateY(-5px); opacity: 0.9; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.floatUp {
+  animation: floatUp 2s infinite ease-in-out;
+}
